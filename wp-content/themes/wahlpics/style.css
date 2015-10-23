@@ -1,0 +1,51 @@
+/*
+ Theme Name:   WahlPics
+ Description:  WahlPics, child theme of 2013
+ Author:       Mark Wahl
+ Template:     twentythirteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+	 */
+
+
+/* GLOBAL STYLES */
+
+.site-main {
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+
+/* LIST STYLES */
+
+.blog h1 {
+	font-size:30px;
+}
+
+.blog .entry-thumbnail img {
+	border-radius: 5px;
+}
+
+/* Desktop Only Styles */
+@media (min-width: 768px)  {
+
+	.blog article {
+		padding: 20px 10px;
+		display:inline-block;
+		width:33%;
+		float:left;
+	}
+
+}
+
+/* Tablet Only Styles */
+@media (min-width: 480px) and (max-width: 768px) {
+
+	.blog article {
+		padding: 20px 10px;
+		display:inline-block;
+		width:50%;
+		float:left;
+	}
+
